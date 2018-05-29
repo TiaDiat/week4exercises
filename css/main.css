@@ -1,1 +1,49 @@
+body {
+	text-align: center;
+}
 
+.box {
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+}
+
+.blue {
+	background-color: lightblue;
+}
+
+.yellow {
+	background-color: lightyellow;
+}
+
+.green {
+	background-color: lightgreen;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.container {
+	height: 200px;
+	width: 200px;
+	background-color: navy;
+}
+
+@media (max-width: 600px) {
+	.yellow {
+		display: none;
+	}
+
+	.green {
+		display: none;
+	}
+
+}
+
+@media (min-width: 1000px) {
+	.box {
+		width: 100%;
+		display: block;
+	}
+}
